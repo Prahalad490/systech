@@ -1,0 +1,40 @@
+.industry {
+  text-align: center;
+  padding: 5% 8%;
+  background-color: #c6ffc1;
+}
+
+.industry-heading {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 50px;
+}
+
+.industry-top-para {
+  padding: 2% 19% 0%;
+  font-family: "Poppins", sans-serif;
+}
+
+.industry-logo {
+  font-size: 3rem;
+  color: #34656d;
+}
+
+.industry-row {
+  padding: 4%;
+}
+
+.industry-row p {
+  margin: 12px 0px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.industry-col {
+  padding-top: 2%;
+  transition: transform 1s;
+}
+
+.industry-col:hover {
+  background-color: white;
+  border-radius: 5%;
+  transform: scale(1.1);
+}

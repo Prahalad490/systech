@@ -1,0 +1,53 @@
+.services {
+  padding: 4% 3%;
+  text-align: center;
+}
+
+.serve-heading {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+
+.service-logo {
+  font-size: 50px;
+  color: #34656d;
+}
+
+.service-tag {
+  padding: 14% 19% 3%;
+  transition: transform 0.2s;
+}
+
+.service-tag:hover {
+  background-color: #c6ffc1;
+  border-radius: 5%;
+  transform: scale(1.1);
+}
+
+.servicetag-last {
+  margin-left: 33%;
+}
+
+.service-tag i,
+h5,
+p {
+  padding: 3%;
+}
+
+/* .service-tag i,
+h5,
+p:hover {
+  transform: scale(1.5);
+  background-color: #c6ffc1;
+} */
+
+@media screen and (max-width: 991px) {
+  .servicetag-last {
+    margin-left: 0%;
+  }
+
+  .service-tag {
+    padding: 5% 19%;
+  }
+}

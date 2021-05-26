@@ -1,0 +1,76 @@
+.footer {
+  padding: 0%;
+  text-align: left;
+  background-color: #334443;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer p {
+  margin: 9px 0px;
+  padding: 0px;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+.footer-col1 {
+  padding: 5% 5% 3%;
+}
+
+.mission-heading {
+  color: #c6ffc1;
+}
+
+.footer-col2 {
+  padding: 7% 5% 3%;
+}
+
+.footer-weblink {
+  font-size: 0.9rem;
+  margin: 17px 0px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-link:hover {
+  color: #c6ffc1;
+  animation-name: footerlink;
+  animation-duration: 1s;
+  margin-left: 10px;
+}
+
+@keyframes footerlink {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 10px;
+  }
+}
+
+.footer-col3 {
+  padding: 7% 5% 3%;
+}
+
+.social-link {
+  font-size: 2rem;
+  padding: 3%;
+  transition: transform 1s;
+}
+
+.social-link:hover {
+  color: #c6ffc1;
+  transform: scale(1.2);
+}
+
+.social {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-row {
+  width: 100%;
+}

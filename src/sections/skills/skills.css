@@ -1,0 +1,77 @@
+.skills {
+  text-align: center;
+  padding: 3% 8%;
+}
+
+.skill-heading {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 50px;
+}
+
+.skill-tag {
+  padding: 1% 2%;
+}
+
+.skill-logo {
+  font-size: 5rem;
+  color: #34656d;
+}
+
+.topskillrow {
+  padding: 5% 0% 2%;
+}
+
+.skilltagrow {
+  margin: 5%;
+}
+
+.programmingHeading {
+  margin-left: 51%;
+  padding: 4%;
+  transition: transform 1s;
+}
+
+.programmingHeading:hover {
+  background-color: #c6ffc1;
+  transform: scale(1.1);
+  border-radius: 5%;
+}
+
+.cmsheading {
+  margin: 0% 16%;
+  padding: 4%;
+  transition: transform 1s;
+}
+
+.cmsheading:hover {
+  background-color: #c6ffc1;
+  transform: scale(1.1);
+  border-radius: 5%;
+}
+
+.databaseHeading {
+  margin-right: 38%;
+  padding: 4%;
+  transition: transform 1s;
+}
+
+.databaseHeading:hover {
+  background-color: #c6ffc1;
+  transform: scale(1.1);
+  border-radius: 5%;
+}
+
+@media screen and (max-width: 991px) {
+  .programmingHeading {
+    margin-left: 0%;
+  }
+  .cmsheading {
+    margin: 0;
+  }
+  .databaseHeading {
+    margin-right: 0;
+  }
+  .skill-logo {
+    margin: 5%;
+  }
+}

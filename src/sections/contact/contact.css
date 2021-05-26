@@ -1,0 +1,53 @@
+.contact {
+  text-align: center;
+  padding: 5% 8% 0%;
+}
+
+.contact h1 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 50px;
+}
+
+.contact p {
+  padding: 2% 19% 0%;
+  font-family: "Poppins", sans-serif;
+}
+
+.contact-box {
+  margin: 3% 5% 5%;
+}
+
+.contact-row {
+  box-shadow: 1px 2px 7px #9e9e9e;
+}
+
+.contact-col {
+  padding: 3% 5%;
+  font-family: "Poppins", sans-serif;
+}
+
+.form-group {
+  margin: 20px 0px;
+}
+
+.btn {
+  background-color: #c6ffc1;
+  border-radius: 10%;
+}
+
+.btn:hover {
+  background-color: #c5c5c5;
+}
+
+.contact-col span {
+  margin-left: 15px;
+}
+
+.address-col {
+  margin-top: 8%;
+  font-family: "Poppins", sans-serif;
+}
+
+.address-para {
+  color: #929292;
+}

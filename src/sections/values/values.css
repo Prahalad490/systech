@@ -1,0 +1,41 @@
+.values {
+  text-align: center;
+  padding: 5% 20%;
+  background-color: #c6ffc1;
+}
+
+.values h1 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 50px;
+}
+
+.values-para {
+  font-family: "Poppins", sans-serif;
+  margin-top: 25px;
+}
+
+.value-tag {
+  padding: 5%;
+}
+
+.value-tag img {
+  padding: 1%;
+}
+
+.value-tag h5 {
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 1%;
+}
+
+.value-tag p {
+  font-family: "Poppins", sans-serif;
+  padding: 1% 20%;
+}
+
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Source Sans Pro', sans-serif; */
+
+.logo {
+  font-size: 90px;
+  color: #34656d;
+}
